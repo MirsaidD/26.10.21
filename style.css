@@ -1,0 +1,51 @@
+#exemple-1{
+  background-color: red;
+  padding: 20px;
+  margin: 20px;
+  height: 200px;
+  width: 200px;
+  display: inline;
+}
+#exemple-2{
+  background-color: blue;
+  padding: 20px;
+margin: 20px;
+height: 200px;
+width: 200px;
+display: block;
+opacity: 0;
+}
+a{
+background-color: tomato;
+  padding: 20px;
+margin: 20px;
+min-width: 100px;
+display: inline-block;
+}
+div:hover+span{
+opacity: 1;
+}
+section{
+  display: flex;
+  flex-direction: row  /*горизонтально; */  /*column /*вертикально */;
+  flex-wrap: wrap;
+  height: 500px;
+  gap: 20px 30px;
+  justify-content: flex-start;
+  background-color: thistle;
+  align-content: center;
+  align-items: flex-end;
+}
+section div{
+  width: 200px;
+  width: 150px;
+  background-color: tomato;
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
+  line-height: 150px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section div:nth-child(even){
+  background-color: rgb(255, 130, 109);
+}
